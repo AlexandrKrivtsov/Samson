@@ -10,7 +10,7 @@
 <body>
     <form name="subString" method="post" action="index.php">
         <p>
-            <label for="str">Строка:</label><br>
+            <label for="str">Строка: </label><br>
             <input type="text" name="string" id="str">
             <button type="submit">Обработать</button>
         </p>

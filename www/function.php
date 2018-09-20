@@ -33,7 +33,7 @@ function substringSearch($string){
     } else exit('Количество вхождений подстроки = '. $substrCount);
     return($arraySubstr2=array($substr2, $substrPos2));
 }
-function stringRev($string){
+function stringRev($string) {
     $substrArray = substringSearch($string);
     $substr = $substrArray[0];
     $substrLenght = iconv_strlen($substr);
